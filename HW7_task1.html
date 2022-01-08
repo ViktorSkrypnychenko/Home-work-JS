@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="task1.js"></script>
+    <title>HW7_task1</title>
+</head>
+<body>
+    <div>
+        
+        
+            <div>
+                <p>Select type of pizza</p>
+                <select id="diametr" size="1">
+                    <option value="max" name = "max">Max diametr</option>
+                    <option value="middle" name = "middle">Middle diametr</option>
+                    <option value="min" name = "mini">Mini diametr</option>
+                </select>
+
+             </div>
+             <form action="" method="get" name="myOrder">
+             <div >
+                 <p>Select ingredients</p>
+                 <input type="checkbox" value="mushrooms" name="mushrooms" class="ingredients">mushrooms <br>
+                 <input type="checkbox" value="bacon" name="bacon" class="ingredients">bacon <br>
+                 <input type="checkbox" value="tomato" name="tomato" class="ingredients">tomato <br>
+                 <input type="checkbox" value="cheese" name="cheese" class="ingredients">cheese <br>
+                 <input type="checkbox" value="olives" name="olives" class="ingredients">olives <br>
+               </div>
+               <input type="button" value="Order" name="order" id="order">  
+               <div id="myDiv"></div>
+            </form>
+               <form action="" method="GET" name="dilivery">
+               <div>
+                   <p>Enter your mobile number and dilivery adress</p>
+                   <input type="text"  name="mobile"  placeholder="+38 (063) 223-23-23"  id="mobile">
+                   <input type="text" name="adress" placeholder="Sverstuka,9">
+               </div>
+               <input type="submit" value="adress" name="adress" id="adress">
+        </form>
+        
+       
+    </div>
+</body>
+</html>
